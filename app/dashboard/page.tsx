@@ -1,8 +1,8 @@
 "use client"
-import { useSession } from 'next-auth/react'
+import { useSession } from 'next-auth/react';
 
-import StreamView from '@/app/components/StreamView'
-import useRedirect from '@/app/hooks/useRedirect';
+import StreamView from '@/components/common/StreamView';
+import useRedirect from '@/hooks/useRedirect';
 
 export default function Component() {
     const session = useSession();

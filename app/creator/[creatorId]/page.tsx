@@ -1,4 +1,4 @@
-import StreamView from "@/app/components/StreamView";
+import StreamView from "@/components/common/StreamView";
 
 export default function Creator({
     params: {
